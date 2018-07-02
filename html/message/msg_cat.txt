@@ -1,0 +1,10 @@
+Hello
+
+{name} added a post by the title {titlepost} in category {titlecat}.
+
+You can view the message at this link:
+{url}
+
+{sitetitle}
+
+

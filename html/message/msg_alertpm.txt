@@ -1,0 +1,10 @@
+﻿Hello
+
+ {name} has sent you a private message.
+
+To view this message please go to this link
+{url} 
+
+Kind regards
+ {sitetitle} Website
+

@@ -1,0 +1,15 @@
+Welcome :   {username} 
+
+We would like to thank you for registering in our website
+
+We require all newly-regiester members to take this step. It is important to prevent spam registration.
+
+To activate your account please click on the link below:
+{url} 
+
+If you have any problems please contact us at this email:
+{sitemail}
+
+Kind Regards
+
+{sitetitle} Website

@@ -1,0 +1,10 @@
+
+ {name} posted a new reply in the thread {titlepost}
+
+You can view the post by clicking on this link:
+{url} 
+
+Kind Regards
+{sitetitle}
+
+
