@@ -1,0 +1,476 @@
+/* begin css tabs */
+
+ul#tabnav { /* general settings */
+text-align: right; /* set to left, right or center */
+margin: 1em 0 1em 0; /* set margins as desired */
+font: bold 11px verdana, arial, sans-serif; /* set font as desired */
+border-bottom: 1px solid #6EDEFE; /* set border COLOR as desired */
+list-style-type: none;
+padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+direction: rtl;
+}
+
+ul#tabnav li { /* do not change */
+display: inline;
+}
+
+div#tab1 li.tab1, div#tab2 li.tab2, div#tab3 li.tab3, div#tab4 li.tab4, div#tab5 li.tab5, div#tab6 li.tab6, div#tab7 li.tab7, div#tab8 li.tab8, div#tab9 li.tab9, div#tab10 li.tab10 { /* settings for selected tab */
+border-bottom: 1px solid #fff; /* set border color to page background color */
+background-color: #fff; /* set background color to match above border color */
+}
+
+div#tab1 li.tab1 a, div#tab2 li.tab2 a, div#tab3 li.tab3 a, div#tab4 li.tab4 a, div#tab5 li.tab5 a, div#tab6 li.tab6 a, div#tab7 li.tab7 a, div#tab8 li.tab8 a, div#tab9 li.tab9 a, div#tab10 li.tab10 a { /* settings for selected tab link */
+background-color: #fff; /* set selected tab background color as desired */
+color: #000; /* set selected tab link color as desired */
+position: relative;
+top: 1px;
+padding-top: 4px; /* must change with respect to padding (X) above and below */
+}
+
+ul#tabnav li a { /* settings for all tab links */
+padding: 3px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+border: 1px solid #6EDEFE; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+background-color: #D8F5FE; /* set unselected tab background color as desired */
+color: #666; /* set unselected tab link color as desired */
+margin-right: 0px; /* set additional spacing between tabs as desired */
+text-decoration: none;
+border-bottom: none;
+padding-left: 25px;
+}
+
+li.tab1 a
+{
+	background: url("images/profile.png") no-repeat scroll 5px 3px transparent;
+}
+
+li.tab2 a
+{
+	background: url("images/pm.png") no-repeat scroll 5px 3px transparent;
+}
+
+li.tab3 a
+{
+	background: url("images/settings.png") no-repeat scroll 5px 3px transparent;
+}
+
+li.tab4 a
+{
+	background: url("images/password.png") no-repeat scroll 5px 3px transparent;
+}
+
+ul#tabnav a:hover { /* settings for hover effect */
+background-color: #fff; /* set desired hover color */
+}
+
+/* end css tabs */
+
+#user_card
+{
+	background-color: #D8F5FE;
+	border: 1px solid #6EDEFE;
+	padding: 5px;
+	position: relative;
+	text-align: right;
+}
+
+#user_card fieldset
+{
+	direction: rtl;
+}
+
+
+.user_photo_name
+{
+	float: right;
+	text-align: center;
+}
+
+.user_details
+{
+	float: right;
+	border-right: 1px solid #6EDEFE;
+	width: 80%;
+	direction: rtl;
+}
+
+.user_details div
+{
+	font-size: 11px;
+	font-family: tahoma;
+	padding: 5px 0;
+	margin-right: 5px;
+}
+
+.user_details .desc
+{
+font-weight: bold;
+}
+
+
+.user_edit
+{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+#pm_header
+{
+	width: 100%;
+	padding: 10px 0;
+	clear: both;
+	text-align: center;
+}
+#pm_header a
+{
+	display: inline-block;
+	padding: 5px;
+	background-color: #D8F5FE;
+	border: 1px solid #6EDEFE;
+	padding: 5px;
+	width: 35%;
+	margin-left: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#pm_header a:hover
+{
+	background-color: #ade9fc;
+	border: 1px solid #5ad9fd;
+}
+
+#inbox
+{
+	background: url("images/inbox.png") no-repeat scroll 0 100% transparent;
+}
+
+#outbox
+{
+	background: url("images/outbox.png") no-repeat scroll 0 100% transparent;
+}
+
+#messages
+{
+/*background-color: #D8F5FE;
+border: 1px solid #5ad9fd;*/
+width: 99%;
+padding: 10px 0;
+}
+
+#usage-bar
+{
+text-align: center;
+}
+
+#usage-bar .bar
+{
+background-color: #fff;
+border: 1px solid #5ad9fd;
+width: 50%;
+margin: auto;
+}
+
+#usage-bar .fill
+{
+width: 50%;
+padding: 5px 0;
+}
+
+.messages-table
+{
+	width: 99%;
+	border: 1px solid #000;
+	margin: auto;
+	background-color: #abd0fe;
+}
+
+.messages-table td
+{
+	padding: 5px;
+}
+
+.messages-table .header td
+{
+	background-color: #abd0fe;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: tahoma;
+	padding: 8px 0;
+}
+
+.messages-table .footer td
+{
+	background-color: #abd0fe;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: tahoma;
+	color: #000;
+}
+
+.messages-table .msg-row td
+{
+	background-color: #D8F5FE;
+	text-align: center;
+}
+
+.messages-table .msg-row td.title
+{
+	text-align: right;
+}
+
+a.button {
+display: inline-block;
+text-decoration: none;
+}
+
+div.button {
+background: url("images/button.png") no-repeat scroll 0 0 transparent;
+color: #666666;
+font-family: tahoma;
+font-size: 11px;
+height: 28px;
+width: 125px;
+position: relative;
+}
+
+div.button:hover {
+color:#000;
+background:url(images/button.png) no-repeat 0px -28px;
+}
+
+.post_buttons
+{
+clear: both;
+}
+
+.post_buttons a
+{
+float: left;
+padding: 10px 2px;
+}
+
+.button span.sendpm
+{
+background: url("images/pm.png") no-repeat scroll 0 0 transparent;
+position: relative;
+top: 5px;
+padding-left: 25px;
+position: absolute;
+left: 10px;
+height: 15px;
+}
+
+
+.button span.reply_pm
+{
+background: url("images/pm.png") no-repeat scroll 100% 0 transparent;
+position: relative;
+top: 5px;
+padding-right: 25px;
+position: absolute;
+right: 10px;
+height: 15px;
+}
+
+
+#legend li
+{
+	list-style-type: none;
+	padding-right: 25px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 12px;
+	font-family: tahoma;
+	/*padding: 3px 25px 3px 0;*/
+}
+
+#legend li.read
+{
+	background: url("images/read.gif") no-repeat scroll 100% 6px transparent;
+}
+
+#legend li.unread
+{
+	background: url("images/unread.gif") no-repeat scroll 100% 6px transparent;
+}
+
+#legend li.replied
+{
+	background: url("images/reply.gif") no-repeat scroll 100% 6px transparent;
+}
+
+
+
+.message
+{
+border:  1px solid #bae4ff;
+margin: 15px 0;
+clear: both;
+}
+.message-details
+{
+	background-color: #bae4ff;
+	padding: 12px 0;
+}
+
+.message_author 
+{
+	padding-left: 20px;
+	margin-right: 10px;
+	padding-top: 3px;
+	padding-right: 5px;
+	margin-left: 5px;
+	border-right: 1px solid;
+	background: url("images/author.png") no-repeat scroll 0 0px transparent;
+}
+
+.message_date
+{
+	padding-left: 20px;
+	padding-top: 3px;
+	background: url("images/time.png") no-repeat scroll 0 0px transparent;
+}
+
+.message-content
+{
+padding: 10px 0;
+margin: 0 10px;
+}
+
+#letters_boxes
+{
+clear: both;
+
+/*
+border:  1px solid #bae4ff;*/
+}
+
+#letters_boxes li
+{
+	background-color: #D8F5FE;
+	border:  1px solid #bae4ff;
+	list-style-type: none;
+	font-size: 12px;
+	font-family: tahoma;
+	float: right;
+}
+
+#letters_boxes li:hover
+{
+	background-color: #eefbff;
+	border:  1px solid #6edefe;
+}
+
+#letters_boxes li a
+{
+	display: block;
+	padding: 9px;
+	text-decoration: none;
+}
+
+#search_users
+{
+background-color: #D8F5FE;
+border:  1px solid #bae4ff;
+padding: 9px;
+font-size: 12px;
+font-family: tahoma;
+clear: both;
+margin: 10px 0;
+}
+
+#search_users span
+{
+float: right;
+padding: 0 10px;
+}
+
+#users_list
+{
+	border:  1px solid #bae4ff;
+}
+
+#users_list .header
+{
+	background-color: #D8F5FE;
+	padding: 10px;
+	font-size: 12px;
+	font-family: tahoma;
+	text-align: center;
+	font-weight: bold;
+}
+
+#users_list .bottom_row
+{
+	background-color: #D8F5FE;
+	padding: 10px;
+	font-size: 13px;
+	font-family: tahoma;
+	text-align: center;
+}
+
+
+#users_list .user_row:hover
+{
+	background-color: #f2fcff;
+}
+
+#users_list  .user_id, #users_list  .user_posts, #users_list  .user_hotmail, #users_list  .user_yahoo, #users_list  .user_others
+{
+	text-align: center;
+} 
+
+
+ul.display_error
+{
+	border: solid 1px #feb5cf;
+	background-color: #fed8e6;
+	padding: 15px 5px;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-bottom: 15px;
+	width: 90%;
+}
+
+ul.display_error li
+{
+	margin-left: 15px;
+	list-style-type: disc;
+}
+
+.reg_conditions
+{
+	border: solid 1px #87ff5d;
+	background-color: #d9ffd8;
+	padding: 15px 5px;
+	font-family: tahoma;
+	font-size: 11px;
+	margin-bottom: 15px;
+	width: 90%;
+}
+
+.reg_conditions li
+{
+	list-style-type: disc;
+}
+
+.reg_conditions h2
+{
+	color: black;
+	margin-top: 0;
+}
+
+#submit_button
+{
+background-color: #D8F5FE;
+border:  1px solid #bae4ff;
+padding: 5px 10px;
+}
+
+#submit_button:hover
+{
+background-color: #bae4ff;
+}
