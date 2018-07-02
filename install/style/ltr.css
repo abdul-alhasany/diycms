@@ -1,0 +1,266 @@
+body
+{
+	background-color: #c0deed;
+	font: normal 12px arial, sans-serif;
+	text-align: center;
+	color: #333;
+	direction: ltr;
+}
+
+a {
+text-decoration: none;
+}
+
+.error_install
+{
+	margin: 0 auto;
+	font-size: 20px;
+	border: 1px solid #FF9F9F;
+	background-color: #FFC7C7;
+	padding: 20px;
+}
+#content-wrapper
+{
+	background-color: #fff;
+	margin: 0 auto;
+	-moz-border-radius: 5px;
+	position:relative;
+	width: 900px;
+}
+
+#top_header
+{
+margin: 0 auto;
+background: url("logo-ltr.png") no-repeat scroll left 0 transparent;
+width: 900px;
+height: 100px;
+}
+
+h1.title
+{
+	text-align: left;
+	width: 900px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+#nav {
+    border-bottom: 1px solid #6EDEFE;
+    direction: ltr;
+	padding: 0;
+	/*
+	font: bold 11px verdana,arial,sans-serif;
+    list-style-type: none;
+    margin: 1em 0;
+    text-align: right;
+	height: 60px;*/
+}
+
+#nav li {
+    display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	height: 60px;
+	width: 180px;
+	text-decoration: none;
+	background: url("steps-ltr.png");
+	padding: 0;
+	font-weight: bold;
+}
+
+#nav li span {
+    display: inline-block;
+	margin-top: 15px;
+	margin-right: 15px;
+	text-decoration: none;
+	color: white;
+}
+/* First step nav css */
+#nav-menu0 li.nav0{
+	background-position: -35px -205px;
+}
+#nav-menu0 li.nav1 {
+	background-position: left -116px;
+}
+#nav-menu0 li.nav2, #nav-menu0 li.nav3, #nav-menu0 li.nav4{
+	background-position: left -15px;
+}
+
+/* Second step nav css */
+#nav-menu1  li.nav1{
+	background-position: left -217px;
+}
+#nav-menu1 li.nav0 {
+	background-position: 211px -310px;
+}
+#nav-menu1 li.nav2 {
+	background-position: left -116px;
+}
+#nav-menu1 li.nav3, #nav-menu1 li.nav4{
+	background-position: left -15px;
+}
+
+/* Thrid step nav css */
+#nav-menu2 li.nav0 {
+	background-position: 211px -310px;
+}
+#nav-menu2  li.nav1{
+	background-position: left -318px;
+}
+#nav-menu2  li.nav2{
+	background-position: left -217px;
+}
+#nav-menu2 li.nav3 {
+	background-position: left -116px;
+}
+ #nav-menu2 li.nav4{
+	background-position: left -15px;
+}
+
+/* Forth step nav css */
+#nav-menu3 li.nav0 {
+	background-position: 211px -310px;
+}
+#nav-menu3  li.nav1, #nav-menu3 li.nav2{
+	background-position: left -318px;
+}
+#nav-menu3  li.nav3{
+	background-position: left -217px;
+}
+ #nav-menu3 li.nav4{
+	background-position: left -116px;
+}
+
+/* Forth step nav css */
+#nav-menu4 li.nav0 {
+	background-position: 211px -310px;
+}
+#nav-menu4  li.nav1, #nav-menu4 li.nav2, #nav-menu4 li.nav3{
+	background-position: left -318px;
+}
+ #nav-menu4 li.nav4{
+	background-position: left -217px;
+}
+
+
+.main-section
+{
+	padding: 10px;
+	font: bold 16px arial,sans-serif;
+}
+
+li.success {
+color: green;
+}
+
+li.fail {
+color: red;
+}
+
+li.warn {
+color: orange;
+}
+
+.first_step {
+	padding: 60px 0;
+}
+
+.second_step {
+	padding: 10px;
+	text-align: left;
+}
+
+.third_step {
+	padding: 10px;
+	text-align: center;
+}
+
+.forth_step {
+	padding: 10px;
+	text-align: center;
+}
+
+ul.check li{
+text-align: left;
+padding: 5px 0;
+}
+
+#connect {
+border: solid 1px #c0deed;
+background-color: #D9F0FC;
+width: 80%;
+margin: 0 auto;
+font-size: 12px;
+font-family: tahoma;
+margin-bottom: 10px;
+color: #557483;
+}
+
+.seprator
+{
+	text-align: center;
+	font-size: 12px;
+	border-bottom: solid 1px #BCE0F2;
+	background-color: #CBE6F4;
+	padding: 5px 0;
+	clear: both;
+	color: #3A5461;
+}
+
+.green {
+color: green;
+}
+
+.red {
+color: red;
+}
+
+
+.first-div {
+float: left;
+padding: 4px;
+width: 180px;
+text-align: left;
+clear: left;
+}
+
+.second-div {
+float: left;
+padding: 4px;
+clear: right;
+}
+
+.text_box {
+text-align: left;
+direction: ltr;
+}
+
+div.button, input.button {
+background: url("button.png") no-repeat scroll 0 0 transparent;
+color: #666666;
+font-family: tahoma;
+font-size: 11px;
+height: 28px;
+width: 125px;
+position: relative;
+float: right;
+}
+
+div.button:hover {
+color:#000;
+background:url(button.png) no-repeat 0px -28px;
+}
+
+.button span.next
+{
+background: url("next-ltr.gif") no-repeat scroll left 0 transparent;
+height: 17px;
+left: 25px;
+padding-left: 25px;
+position: absolute;
+top: 5px;
+}
+
+.clear{
+clear: both;
+}

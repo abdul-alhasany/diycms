@@ -1,0 +1,46 @@
+<?php
+$sitepath = str_replace(DIRECTORY_SEPARATOR."install", "", getcwd());
+$link = 'http://' . $SERVER_NAME . $PHP_SELF;
+$link   = ereg_replace("/install/index.php", "", $link);
+ $k_site = str_replace('www.', '', $SERVER_NAME);
+?>
+
+<form method="POST" action="index.php?step=3&lang=<?php echo $lang ?>">
+<div id="connect">
+<div class="seprator"><?php echo STEP2_DETAILS_DATABASE_TITLE ?></div>
+<div class="first-div"><?php echo STEP2_DETAILS_DATABASE_SERVER ?></div>
+<div class="second-div"><input type="text" name="servername" value="localhost" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_DATABASE_NAME ?></div>
+<div class="second-div"><input type="text" name="server_db" value="" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_DATABASE_USER ?></div>
+<div class="second-div"><input type="text" name="server_un" value="" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_DATABASE_PASSWORD ?></div>
+<div class="second-div"><input type="text" name="server_pass" value="" size="36" class="text_box" ></div>
+
+<div class="seprator"><?php echo STEP2_DETAILS_FOLDER ?></div>
+<div class="first-div"><?php echo STEP2_DETAILS_FOLDER_PATH ?></div>
+<div class="second-div"><input type="text" name="sitepath" value="<?php echo $sitepath; ?>" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_FOLDER_UPLOAD_PATH ?></div>
+<div class="second-div"><input type="text" name="uppath" value="<?php echo str_replace(DIRECTORY_SEPARATOR."install", "", getcwd()).DIRECTORY_SEPARATOR.'upload'; ?>" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_FOLDER_SITE_LINK ?></div>
+<div class="second-div"><input type="text" name="sitelink" value="<?php echo $link ?>" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_FOLDER_SITE_TITLE ?></div>
+<div class="second-div"><input type="text" name="sitetitle" value="" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_FOLDER_SITE_EMAIL ?></div>
+<div class="second-div"><input type="text" name="sitemail" value="" size="36" class="text_box" ></div>
+
+<div class="seprator"><?php echo STEP2_DETAILS_COOKIES ?></div>
+<div class="first-div"><?php echo STEP2_DETAILS_COOKIES_TITLE ?></div>
+<div class="second-div"><input type="text" name="cookie" value="<?php echo random_word(9) ?>" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_COOKIES_DOMAIN ?></div>
+<div class="second-div"><input type="text" name="domain" value="<?php echo $k_site ?>" size="36" class="text_box" ></div>
+
+<div class="seprator"><?php echo STEP2_DETAILS_ADMIN ?></div>
+<div class="first-div"><?php echo STEP2_DETAILS_ADMIN_USERNAME ?></div>
+<div class="second-div"><input type="text" name="username" value="" size="36" class="text_box" ></div>
+<div class="first-div"><?php echo STEP2_DETAILS_ADMIN_PASSWORD ?></div>
+<div class="second-div"><input type="password" name="password" value="" size="36" class="text_box" ></div>
+<div style="clear:both"></div>
+</div>
+<input name="I1" width="98" height="24" type="submit" value="<?php echo STEP_NEXT ?>" class='button'>
+</form>

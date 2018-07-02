@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+   <!ENTITY % HTMLspecial PUBLIC "-//W3C//ENTITIES Special//EN//HTML"
+   "http://www.w3.org/TR/REC-html40-971218/HTMLspecial.ent">
+
+<html dir=rtl>
+<head>
+<title><?php echo MAIN_PAGE_TITLE ?></title>
+<link rel="shortcut icon" href="style/favicon.png" type="image/x-icon">
+<?php
+if(isset($lang))
+{
+	$dir = ($lang == 'english') ? 'ltr' : 'rtl';
+}
+?>
+<link rel="stylesheet" type="text/css" href="style/<?php echo $dir?>.css">
+</head>
+<body>
+<div id='top_header'></div>
+    <div id='content-wrapper'>
+	
+	<?php $step = ($_GET['step'] != '') ? $_GET['step'] : 0; ?>
+	<div class="header-wrapper" id="nav-menu<?php echo $step ?>">
+<ul id="nav">
+<li class="nav0"><span><?php echo NAV_WELCOME ?></span>
+<li class="nav1"><span><?php echo NAV_CHECK ?></span>
+<li class="nav2"><span><?php echo NAV_DETAILS ?></span>
+<li class="nav3"><span><?php echo NAV_INSTALL ?></span>
+<li class="nav4"><span><?php echo NAV_DONE ?></span>
+</ul>
+
+</div>
+
+	<div id='main' class='main-section'>
+	<?php echo $content ?>
+	 <div class="clear">  </div>
+  </div>
+</div>
+
+</body>
+
+</html>
