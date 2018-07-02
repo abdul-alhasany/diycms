@@ -1,0 +1,60 @@
+body
+{
+	background-color: #3c6633;
+}
+
+#header-wrapper {
+	background-color: #3c6633;
+}
+
+#nav li:hover { background-color: #3c6633;}
+
+
+.block-container h2{
+background-color: #407d33;
+}
+
+
+/* sliding news block */
+
+#most-read-com-nav
+{
+	background-color:#355e2c;
+}
+
+.most-read-commented h2{
+background-color: #407d33;
+}
+
+#most-read-com-nav li:hover{
+	background:#3f6e36; 
+}
+
+.selected {
+	background:#3f6e36;
+}
+
+
+.tabs ul li a:hover { background: #3c6633; color: white; }
+
+.read-more {
+  background-color: #407d33;
+  border: 1px solid #407d33;
+}
+.read-more:hover {background-color: #79b56d;}
+
+.box-header-title {
+	background-color:#468739;
+}
+
+/*-------------------------------------*/
+/* curved container news item selected */
+/*-------------------------------------*/
+.big-news-item-selected-item, .curved-news-items-container .big-news-item-selected-item:first-child
+{
+	background: url(rotator/images/big-news-item-selected-green.png) no-repeat right;
+}
+
+.box-header {
+  border-bottom: 2px solid #407d33;
+}

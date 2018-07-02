@@ -1,0 +1,320 @@
+/*-------------------------------*/
+/*  news rotator container       */
+/*-------------------------------*/
+.right-body-news-rotator
+{
+	height: 387px;
+	border: solid 1px #e0e0e0;
+	width: 635px;
+}
+
+/*-------------------------------*/
+/*  news rotator title           */
+.right-body-news-rotator-upper-section
+{
+	height: 307px;
+	overflow: hidden;
+	display: block;
+	float: none;
+	clear: both;
+}
+
+/*------------------------------------------*/
+/* Small loading Bar container              */
+/*------------------------------------------*/
+.loading
+{
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    padding-top: 188px;
+}
+
+/*-------------------------------*/
+/*  news rotator title image     */
+.news-rotator-main-image
+{
+	height: 310px;
+	background: url(images/rotating-news-title-bg.gif) repeat-x #e8e8e8;
+	color: #ff0000;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: right;
+	padding-left: 10px;
+	width:385px;
+	overflow: hidden;
+	margin-left: -30px;
+	float: right;
+	position: relative;
+}
+/*-------------------------------*/
+/*  news rotator title image as a link */
+.news-rotator-main-image a
+{
+	color: #ff0000;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
+	line-height: 15px;
+}
+
+/*-------------------------------*/
+/*  news rotator sub-title       */
+/*-------------------------------*/
+.news-rotator-main-image-sub-title
+{
+	color:#0060AA;
+	display:block;
+	height:35px;
+	line-height:21px;
+	padding-top:5px;
+	width:100%;
+	font-size: 19px;
+	direction:rtl;
+	font:bold 21px/30px "Arabic Transparent";
+	margin:0 1px 0 0;
+	text-decoration:none;
+}
+
+/*-------------------------------*/
+/*  general vedio link           */
+/*-------------------------------*/
+a.vedio-link
+{
+	text-decoration: none;
+	display:block;
+}
+
+/*-------------------------------*/
+/*  general vedio link hovred    */
+a.vedio-link:hover
+{
+	text-decoration: none;
+}
+
+/*-------------------------------*/
+/*  news rotator container       */
+/*-------------------------------*/
+.news-rotator-main-image_img
+{
+	width:auto;
+	height:310px;
+	display:block;
+}
+
+/*---------------------------*/
+/*  news summery container  */
+/*--------------------------*/
+.news-summery
+{
+	display:block;
+	height: 53px;
+	padding-top: 261px;
+	padding-right: 0;
+	margin-right: 0;
+	margin-top: 0;
+	line-height: 44px;
+	font-size: 13px;
+	position: relative;
+	color: #fff;
+	background: url(images/shadow.png) 6px 3px no-repeat;
+	top: -315px;
+	cursor: pointer;
+	float:right;
+	width: 405px !important;
+}
+
+/*  curved container  */
+.curved-news-items-container
+{
+	width: 244px;
+	height: 307px;
+	background: url(images/newsitems-bg.png) no-repeat;
+	float: left;
+}
+
+#caption {
+	background: url(images/caption.png) scroll repeat top right;
+	padding-right: 10px;
+	height: 51px;
+	font-family: tahoma;
+	font-weight: normal;
+	font-size: 12px;
+	width:385px;
+}
+
+/* main text in the news rotator */
+.big-news-item
+{
+	width: 233px;
+	height: 56px;
+	display: block;
+	clear: both;
+	background: url(images/gray-border-news-big.gif) no-repeat;
+	color: #666666;
+	text-align: right;
+	margin-right: 10px;
+	margin-left: 6px;
+	overflow: hidden;
+	padding-bottom: 3px;
+	padding-right: 1px;
+	margin-top: 3px;
+	cursor: pointer;
+	font-size: 14px;
+	line-height:18px;
+	font-family:"Arabic Transparent", Geneva, sans-serif;
+	font-weight: bold;
+}
+
+/*-------------------------------*/
+/* container of the news rotator */
+/*-------------------------------*/
+.big-news-item-sub-container
+{
+	/*overflow: hidden;*/
+	/*float: right;*/
+	margin-top: 7px;
+}
+/*-------------------------------*/
+/* container of the news rotator text */
+.big-news-item-sub-container-text
+{
+	/*overflow: hidden;*/
+	float: right;
+	width: 177px;
+}
+/*-------------------------------*/
+/* container of the news rotator text */
+.big-news-item-sub-container-img
+{
+	float: left;
+}
+
+/*-------------------------------*/
+/* news-rotator small image      */
+/*-------------------------------*/
+.big-news-item_img {
+	height: 36px;
+	width: 46px;
+	border:2px solid #E4E4E4;
+}
+
+/*-------------------------------*/
+/* curved container news item    */
+/*-------------------------------*/
+.curved-news-items-container .big-news-item:first-child
+{
+	background: none;
+	margin-top: 3px;
+}
+
+/*-------------------------------------*/
+/* curved container news item selected */
+/*-------------------------------------*/
+.big-news-item-selected-item, .curved-news-items-container .big-news-item-selected-item:first-child
+{
+	width: 233px;
+	height: 56px;
+	display: block;
+	clear: both;
+	font-size: 16px;
+	line-height:22px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 10px;
+	margin-left: 6px;
+	overflow: hidden;
+	padding-bottom: 3px;
+	margin-top: 3px;
+	cursor: pointer;
+	background: url(images/big-news-item-selected.gif) no-repeat right;
+	color: #FFF;
+	width: 255px;
+	position: relative;
+	right: -20px;
+}
+
+/*-------------------------------*/
+/* curved container news item selected for the sub contaiener   */
+.big-news-item-selected-item .big-news-item-sub-container
+{
+	margin-right: 25px;
+	margin-left: 10px;
+}
+
+/*-------------------------------*/
+/* curved container news item selected for the sub contaiener text  */
+.big-news-item-selected-item .big-news-item-sub-container .big-news-item-sub-container-text
+{
+	width: 220px;
+}
+
+/*-------------------------------*/
+/* curved container news item selected for img  */
+.big-news-item-selected-item img
+{
+	display: none;
+}
+
+/*-------------------------------*/
+/*  right side of news rotator   */
+/*-------------------------------*/
+.right-body-news-rotator-details
+{
+	background: #e0e0e0;
+	height: 70px;
+	overflow: hidden;
+	display: block;
+	float: none;
+	clear: both;
+	color: #666666;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: bold;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+/*-------------------------------*/
+/*  right side of news rotator link */
+.right-body-news-rotator-details .read-more
+{
+	float: none;
+}
+
+div.newsTitle {
+	height: 60px;
+	text-align:right;
+	background:url("images/rotating-news-title-bg.gif") repeat-x scroll 0 0 #E8E8E8;
+	padding:5px;
+}
+
+#subtitle {
+	color:#BB0000;
+	direction:rtl;
+	font:bold 18px/22px "Arabic Transparent";
+	margin:0 1px 0 0;
+	text-decoration:none;
+}
+
+.news-rotator-main-image div {
+	width: 401px;
+}
+
+.vedio-link #image img {
+	position: relative;
+	left: 10px;
+}
+
+.vedio-link #image {
+	overflow: hidden;
+}
+
+#NewsNavigator {
+width: 635px;
+direction: rtl;
+}
